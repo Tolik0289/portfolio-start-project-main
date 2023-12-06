@@ -4,6 +4,7 @@ import { Header } from './layout/header/Header';
 import { Contact } from './layout/section/contacts/Contacts';
 import { Main } from './layout/section/main/Main';
 import { Skills } from './layout/section/skills/Skills';
+import { Slogan } from './layout/section/slogan/Slogan';
 import { Testimony } from './layout/section/testimony/Testimony';
 import { Works } from './layout/section/works/Works';
 
@@ -16,7 +17,8 @@ function App() {
             <Skills />
             <Works />
             <Testimony />
-            <Contact /> 
+            <Contact />
+            <Slogan /> 
         </div>
     );
 }
